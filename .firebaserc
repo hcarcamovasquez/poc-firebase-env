@@ -1,0 +1,29 @@
+{
+    "projects": {
+        "dev": "poc-fireabse-env-dev",
+        "prod": "poc-fireabse-env-prod",
+        "default": "poc-fireabse-env-dev"
+    },
+    "targets": {
+        "poc-fireabse-env-dev": {
+            "hosting": {
+                "landing-target": [
+                    "landing-site-4f173"
+                ],
+                "admin-target": [
+                    "admin-target-4f173"
+                ]
+            }
+        },
+        "poc-fireabse-env-prod": {
+            "hosting": {
+                "landing-target": [
+                    "landing-site-4f174"
+                ],
+                "admin-target": [
+                    "admin-target-4f174"
+                ]
+            }
+        }
+    }
+}

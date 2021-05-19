@@ -1,0 +1,18 @@
+{
+  "name": "poc-fireabse-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:dev": "firebase deploy --project dev",
+    "deploy:dev:functions": "firebase deploy --only functions --project dev",
+    "deploy:dev:landing": "firebase deploy --only hosting:landing-target",
+    "deploy:dev:admin": "firebase deploy --only hosting:admin-target",
+    "deploy:prod": "firebase deploy --project prod",
+    "deploy:prod:functions": "firebase deploy --only functions --project prod",
+    "deploy:prod:landing": "firebase deploy --only hosting:landing-target --project prod",
+    "deploy:prod:admin": "firebase deploy --only hosting:admin-target --project prod"
+  },
+  "author": "",
+  "license": "ISC"
+}
